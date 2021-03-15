@@ -1,6 +1,6 @@
 The goal of the project was to localize marker on image.
 
-<img src="https://github.com/JakubDaleki/bachelor-thesis-scripts/blob/main/Znacznik_v2.png" width="200" height="200" alt="Image of marker"/>
+<img src="https://github.com/JakubDaleki/bachelor-thesis-scripts/blob/main/Znacznik_v2.png" width="378" height="492" alt="Image of marker"/>
 
 For this purpose I trained and tested various deep neural networks. For labeling dataset I created tool called "labeler.py" which is placed in tools directory, along with other helpful scripts for augmentation and preparing data.
 
