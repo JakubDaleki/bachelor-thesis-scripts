@@ -1,0 +1,20 @@
+In "tools" directory:
+
+Automated image resizing:
+
+1. Create new directory "to_resize" and put there images.
+2. Create new directory "resized".
+3. Run script 'resize.py' in console.
+
+Image labeler:
+
+1. Create directory "source_to_label" and put there images.
+2. Run script 'label_data.py'
+3. Program is not fault tolerant (if you make mistake you have to remove it manually or start from the beginning).
+4. Thus, a good aproach to use this labeler is dividing data into batches and labeling them in batches.
+
+Generate masks of objects (segmentation) for object which are located by coordinations:
+
+1. Put .csv file in dataset_augmented/data0 directory.
+2. Run script gereate_output_mask.py
+3. In dataset_mask_output/x and dataset_mask_output/y will be placed input image with expected mask respectively.
